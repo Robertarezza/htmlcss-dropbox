@@ -5,8 +5,13 @@
     margin: 0;
 }
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
 img{
     max-width: 100%;
+    
     
 }
 
@@ -22,12 +27,12 @@ ul>li{
 
 /* contenitore */
 .contenitore{
-    width: 80%;
+    width: 70%;
 
 }
 
 .contenitore-h-f{
-    width: 90%;
+    width: 80%;
 }
 
 /* flex */
@@ -74,7 +79,7 @@ ul>li{
 }
 
 button{
-    margin-left: 5px;
+    /* margin-left: 5px; */
     background-color: rgb(64, 64, 244);
     color: white;
     border: none;
@@ -82,27 +87,77 @@ button{
     font-size: 0.7rem;
 }
 
+.b-pg{
+    width: 60%;
+}
+
 .main{
     padding-top: 50px;
 }
 
 /* hero */
+.padd{
+    padding-top: 50px;
+}
+
 .hero{
     width: 100%;
     background-color: #b4d0e7;
-    justify-content: center;
+    
+    /* justify-content: center; */
     align-content: flex-end;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
   /* debug */
-    height: 400px;
+    /* height: 400px; */
 }
 
 .cont-hero{
+    /* text-align: center; */
     /* debug */
-    background-color: brown;
-    height: 350px;
+    /* background-color: brown; */
+    /* height: 350px; */
+    
 }
 
+
+
+.cont-small-h{
+    width: 40%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-top: 50px;
+    font-size: 0.8rem;
+    /* bebug */
+    /* height: 350px;
+    background-color: aquamarine; */
+}
+.cont-big-h{
+    width: 60%;
+    /* bebug */
+    /* height: 350px;
+    background-color: blueviolet; */
+}
+
+h2{
+    font-size: 3.5rem;
+    /* margin: 10px; */
+    /* display: inline-block; */
+    text-align: -webkit-center;
+    font-weight: 900;
+}
+
+.fa-arrow-down{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.position{
+    position: relative;
+    top: 50px;
+}
+
+/* section 1 */
 
 
 .trova{
