@@ -41,7 +41,6 @@
 }
 
 .cont-hero{
-    width: 80%;
     /* debug */
     background-color: brown;
     height: 350px;
@@ -124,5 +123,28 @@
     height: 400px;
 
     /* debug */
+    border: 1px solid black;
+}
+
+.cont-d-p{
+    background-color:#b4d0e7; ;
+}
+
+.e-2{
+    /* debug */
+    height: 350px;
+}
+
+footer{
+    background-color: black;
+
+    /* debug */
+    margin-top: 10px;
+}
+.col-f{
+    width: calc(100%/5);
+    /* debug */
+    background-color: tomato;
+    height: 200px;
     border: 1px solid black;
 }
