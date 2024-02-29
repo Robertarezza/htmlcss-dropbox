@@ -5,6 +5,32 @@
     margin: 0;
 }
 
+img{
+    max-width: 100%;
+    
+}
+
+ul{
+    list-style: none;
+
+}
+ul>li{
+    font-size: 0.7rem;
+    padding: 5px 7px;
+
+}
+
+/* contenitore */
+.contenitore{
+    width: 80%;
+
+}
+
+.contenitore-h-f{
+    width: 90%;
+}
+
+/* flex */
 .flex{
     display: flex;
     justify-content: center;
@@ -14,28 +40,59 @@
     flex-wrap: wrap;
 }
 
-
+/* header */
 .header{
     width: 100%;
     justify-content: space-between;
+    position: fixed;
+    z-index: 999;
+    background-color: white;
     /* debug */
-    background-color: brown;
-    height: 50px;
-    
+    /* background-color: brown; */
+    /* height: 50px; */
+
 }
 .list-sx, .list-dx{
     width: 30%;
+    padding: 10px;
 
     /* debug */
-    background-color: aqua; 
+    /* background-color: aqua; */
 }
 
+.logo{
+  width: 25%;
+  margin-right: 10px;
+}
+
+.list-sx{
+    justify-content: flex-start;
+}
+
+.list-dx{
+    justify-content: flex-end;
+}
+
+button{
+    margin-left: 5px;
+    background-color: rgb(64, 64, 244);
+    color: white;
+    border: none;
+    padding: 5px 7px;
+    font-size: 0.7rem;
+}
+
+.main{
+    padding-top: 50px;
+}
+
+/* hero */
 .hero{
     width: 100%;
     background-color: #b4d0e7;
     justify-content: center;
     align-content: flex-end;
-    flex-wrap: wrap;  
+    flex-wrap: wrap;
   /* debug */
     height: 400px;
 }
@@ -46,10 +103,7 @@
     height: 350px;
 }
 
-.contenitore{
-    width: 80%;
 
-}
 
 .trova{
     margin-top: 50px;
@@ -100,7 +154,7 @@
 
 .col-corte{
     justify-content: space-between;
-    
+
 }
 .cont-solo{
     justify-content: start;
