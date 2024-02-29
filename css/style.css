@@ -5,15 +5,39 @@
     margin: 0;
 }
 
+.flex{
+    display: flex;
+}
+
+
 .header{
     width: 100%;
-    display: flex;
+    justify-content: space-between;
     /* debug */
     background-color: brown;
     height: 50px;
-    justify-content: space-between;
+    
 }
 .list-sx, .list-dx{
-    background-color: aqua;
     width: 30%;
+
+    /* debug */
+    background-color: aqua; 
+}
+
+.hero{
+    width: 100%;
+    background-color: #b4d0e7;
+    justify-content: center;
+    align-content: flex-end;
+    flex-wrap: wrap;  
+  /* debug */
+    height: 400px;
+}
+
+.cont-hero{
+    width: 80%;
+    /* debug */
+    background-color: brown;
+    height: 350px;
 }
