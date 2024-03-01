@@ -97,6 +97,11 @@ button{
     margin: 30px 0;
 }
 
+.b-col{
+    margin: 30px 0;
+    margin-left: 10px;
+}
+
 /* main */
 .main{
     padding-top: 50px;
@@ -178,6 +183,7 @@ h3{
    
 }
 
+
 .font-size{
     font-size: 0.6rem;
     margin-top: 15px;
@@ -190,17 +196,93 @@ h3{
 
 /* section2 */
 .col{
-    width: calc(90% / 3);
+    width: calc(95% / 3);
+   
 
     /* debug */
-    background-color: lightcoral;
-    height: 500px;
+    /* background-color: lightcoral; */
+    height: 800px;
     border:1px solid black;
     margin-top: 20px;
 }
 
 .col-lunghe{
     justify-content: space-between;
+}
+
+.intestazione{
+    border: 1px solid black;
+    text-align: center;
+    font-size: 0.7rem;
+    padding: 5px 0;
+    
+}
+
+.f-s{
+    font-size: 0.7rem;
+}
+
+.parte-sup{
+    padding-left: 9px;
+}
+
+h4{
+    margin-bottom: 7px;
+    padding-top: 10px;
+}
+
+.list-1{
+    margin-bottom: 10px;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.list-1>li{
+    margin: 10px 0;
+    
+}
+.list-2>li{
+    margin: 10px 0;
+    
+}
+
+.list-2{
+    padding-top: 10px;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.acquista-ora{
+    font-size: 0.5rem;
+    margin-left: 10px;
+}
+
+.acquista-ora>a{
+    text-decoration-line: revert-layer;
+    color: revert-layer;
+}
+
+.mese{
+    margin-bottom: 20px;
+}
+
+hr{
+    width: 30%;
+    margin-left: 9px;
+    margin-top: 20px;
+}
+
+
+.fa-check{
+    color: rgb(64, 64, 244);;
+    margin-right: 5px;
+
+}
+
+.margin{
+    margin-left: 5px;
 }
 
 .enterprice{
