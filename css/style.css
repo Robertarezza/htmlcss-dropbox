@@ -25,7 +25,10 @@ ul{
 ul>li{
     font-size: 0.7rem;
     padding: 5px 7px;
+}
 
+.lista-header{
+    padding-top: 10px;
 }
 
 /* contenitore */
@@ -299,7 +302,7 @@ hr{
 }
 
 .margin{
-    margin-left: 5px;
+    margin-left: 7px;
 }
 
 .enterprice{
@@ -347,35 +350,117 @@ hr{
     padding-bottom: 10px;
 }
 
-#colonne-corte{
-    padding-top: 50px;
+#colonne-corte>h2{
+    padding-bottom: 20px;
 }
-.cont-solo{
+
+#colonne-corte{
+    padding-top: 100px;
+}
+.cont-business{
     justify-content: start;
     margin-top: 20px;
 }
 
 .solo{
+    width: 70%;
+    padding: 70px 0;
+
     /* debug */
     height: 150px;
+   
+}
+
+.solo>a{
+    text-decoration-line: revert-layer;
+    color: revert-layer;
+}
+
+.solo>h2{
+    padding-bottom: 30px;
+}
+
+h2{
+    font-size: 1.7rem;
 }
 .pubblicita{
     width: 100%;
     height: 400px;
     background-color: #b4d0e7;
     /* debug */
-    margin-top: 20px;
+    margin-top: 70px;
 }
 .col-p{
     width: calc(100% / 3);
-    height: 400px;
-
+    /* height: 400px; */
     /* debug */
     border: 1px solid black;
 }
 
+.col-p-sx-dx{
+    width: calc(100% /2);
+   
+    /* debug */
+    /* background-color: blueviolet; */
+    border: 1px solid black;
+}
+
+.designit{
+    background-color: #a2d39b;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.arizona-state{
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.florida{
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.florida>img{
+    padding-left: 60px;
+    padding-top: 50px;
+}
+
+.toops{
+    align-content: center;
+    flex-wrap: wrap;
+    padding-left: 50px;
+}
+
+.topps>img{
+    padding-left: 50px;
+    padding-top: 40px;
+}
+
+/* .square-box{
+    position: relative;
+    width: 33.333333%;
+    overflow: hidden;
+    float: left;
+}
+
+.square-box:before{
+    content: ;
+    display: block;
+    padding-top: 100%;
+}
+.square-content{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+} */
+
+
 .cont-d-p{
-    background-color:#b4d0e7; ;
+    /* background-color:#b4d0e7; ; */
 }
 
 .e-2{
