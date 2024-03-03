@@ -221,8 +221,8 @@ h3{
     /* background-color: lightcoral; */
     /* height: 800px; */
     
-    
 }
+
 
 .list-2 > li:first-child{
     padding-left: 20px
@@ -305,13 +305,7 @@ hr{
     margin-left: 7px;
 }
 
-.enterprice{
-    margin-top: 20px;
-    border:1px solid rgb(180, 175, 175);
-    /* debug */
-    
-    /* height: 200px; */
-}
+
 
 .distanza div{
    margin-top: 50px;
@@ -344,6 +338,11 @@ hr{
 .cont-small>h4{
     padding-top: 20px;
 }
+
+#colonne-corte .col{
+    border: none;
+}
+
 
 #colonne-corte h4{
     padding-left: 10px;
@@ -385,16 +384,15 @@ h2{
 }
 .pubblicita{
     width: 100%;
-    height: 400px;
     background-color: #b4d0e7;
-    /* debug */
-    margin-top: 70px;
+    margin-top: 90px;
+    padding-bottom: 20px;
 }
 .col-p{
     width: calc(100% / 3);
-    /* height: 400px; */
+
     /* debug */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .col-p-sx-dx{
@@ -402,7 +400,7 @@ h2{
    
     /* debug */
     /* background-color: blueviolet; */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .designit{
@@ -410,64 +408,125 @@ h2{
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
+    padding: 70px 0;
 }
 
 .arizona-state{
     align-content: center;
     flex-wrap: wrap;
+    /* padding: 0 60px; */
+    background-color: #61082b;
 }
 
 .florida{
     align-content: center;
     flex-wrap: wrap;
+    padding: 20px 0;
+    background-color:#0093ce;
 }
 
 .florida>img{
-    padding-left: 60px;
-    padding-top: 50px;
+    padding-left: 50px;
+    padding-top: 60px;
 }
 
-.toops{
+.topps{
     align-content: center;
     flex-wrap: wrap;
-    padding-left: 50px;
+   padding: 20px 20px ;
+   background-color: #ff1c1c;
+
 }
 
 .topps>img{
-    padding-left: 50px;
-    padding-top: 40px;
+    padding-left: 40px;
+    padding-top: 30px;
 }
 
-/* .square-box{
-    position: relative;
-    width: 33.333333%;
-    overflow: hidden;
-    float: left;
+.world{
+    background-color: #d5001f;
+    padding: 35px 50px;
 }
 
-.square-box:before{
-    content: ;
-    display: block;
-    padding-top: 100%;
+.hearst-corp{
+    background-color: #b4d0e7;
 }
-.square-content{
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    bottom: 5px;
-    right: 5px;
-} */
+
+.lonely-planet{
+    background-color: #0d2481;
+
+}
+
+.clear-channel{
+    background-color: #ffd830;
+
+}
+
+.colonna-centrale{
+    overflow: auto;
+}
+
+.img-colonna-centrale{
+ width: 50%;
+ padding: 20px;
+}
+
+.colonna-centrale> p{
+    padding-top: 20px;
+}
+
+.colonna-centrale>span{
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 10px;
+}
 
 
 .cont-d-p{
-    /* background-color:#b4d0e7; ; */
+    background-color:#b4d0e7; ;
+    padding: 70px 0;
+}
+
+.cont-d-p .cont-small>button{
+    background-color: white;
+    color: black;
+}
+
+.cont-d-p .cont-big>h2{
+    color: #61082b;
+}
+
+.enterprice{
+    margin-top: 20px;
+    /* border:1px solid rgb(180, 175, 175); */
+    /* debug */
+    
+    /* height: 200px; */
+}
+
+
+.enterprice>ul{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 40px 0;
+}
+
+.e-2>h2{
+    padding: 50px 0
 }
 
 .e-2{
-    /* debug */
-    height: 350px;
+    padding-bottom: 70px;
 }
 
+
+.fa-chevron-down{
+    padding-left: 90px;
+}
+
+.lista-scomparsa li{
+    display: none;
+}
 footer{
     background-color: black;
 
@@ -476,8 +535,26 @@ footer{
 }
 .col-f{
     width: calc(100%/5);
+    color: white;
+    padding: 50px 0;
     /* debug */
-    background-color: tomato;
-    height: 200px;
+    /* background-color: tomato; */
+    /* height: 200px; */
     border: 1px solid black;
+}
+
+.col-f>ul li a{
+    color: white;
+}
+
+.col-f ul li>h4{
+    font-size: 1.5rem;
+}
+
+.col-f>ul{
+    padding-bottom: 20px;
+}
+
+.hr-footer{
+    margin: 20px 5px;
 }
