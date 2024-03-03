@@ -17,6 +17,18 @@ a{
     text-decoration: none;
     color: black;
 }
+
+/* effetti */
+
+.lista-header li:hover {
+    border-bottom: 1px solid black;
+}
+
+button:hover{
+    background-color: #0093ce;
+    cursor: pointer;
+}
+
 /* liste */
 ul{
     list-style: none;
@@ -28,7 +40,7 @@ ul>li{
 }
 
 .lista-header{
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 /* contenitore */
@@ -64,6 +76,10 @@ ul>li{
     /* height: 50px; */
 
 }
+
+.list-dx>button{
+    margin-left: 5px;
+}
 .list-sx, .list-dx{
     
     padding: 10px;
@@ -75,7 +91,8 @@ ul>li{
 
 .logo{
   width: 25%;
-  margin-right: 10px;
+  padding-right: 10px;
+  object-fit: contain;
 }
 
 .list-sx{
@@ -139,7 +156,7 @@ button{
 
 
 .cont-small-h{
-    /* width: 40%; */
+    width: 40%;
     flex-direction: column;
     justify-content: space-between;
     padding-left: 50px;
@@ -152,13 +169,11 @@ button{
     background-color: aquamarine; */
     /* padding-bottom: 50px; */
 }
+
+
 .cont-big-h{
-    /* width: 60%; */
+    width: 60%;
     
-    /* bebug */
-    /* height: 350px;
-    background-color: blueviolet; */
-    /* padding-left: 20px; */
 }
 
 h1{
@@ -175,9 +190,10 @@ h1{
 }
 
 .position{
+    
     position: relative;
     top: 50px;
-    left: 20px;
+    left: 50px;
 }
 
 /* section 1 */
@@ -206,7 +222,7 @@ h3{
     padding-right: 20px;
 }
 
-.margin-fatturazione{
+#opzione-2{
     margin-left: 30px;
 }
 
@@ -331,7 +347,19 @@ hr{
     /* height: 200px; */
 }
 
-.cont-small > h4,p,button{
+.enterprice{
+    border: 1px solid gray;
+}
+
+.margin-10 > h4{
+    margin: 10px;
+}
+
+.margin-10>p{
+    margin: 10px;
+}
+
+.margin-10>button{
     margin: 10px;
 }
 
@@ -349,8 +377,8 @@ hr{
     padding-bottom: 10px;
 }
 
-#colonne-corte>h2{
-    padding-bottom: 20px;
+#colonne-corte h2{
+    padding-bottom: 40px;
 }
 
 #colonne-corte{
@@ -397,11 +425,14 @@ h2{
 
 .col-p-sx-dx{
     width: calc(100% /2);
+    height: calc(100%/2);
    
     /* debug */
     /* background-color: blueviolet; */
     /* border: 1px solid black; */
 }
+
+
 
 .designit{
     background-color: #a2d39b;
@@ -409,6 +440,10 @@ h2{
     align-content: center;
     flex-wrap: wrap;
     padding: 70px 0;
+    
+}
+.designit>img{
+    object-fit: cover;
 }
 
 .arizona-state{
@@ -448,6 +483,10 @@ h2{
     padding: 35px 50px;
 }
 
+.world>img{
+    filter: invert(1);
+}
+
 .hearst-corp{
     background-color: #b4d0e7;
 }
@@ -473,6 +512,7 @@ h2{
 
 .colonna-centrale> p{
     padding-top: 20px;
+    padding-left: 10px;
 }
 
 .colonna-centrale>span{
@@ -508,7 +548,7 @@ h2{
 .enterprice>ul{
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
 .e-2>h2{
@@ -517,14 +557,20 @@ h2{
 
 .e-2{
     padding-bottom: 70px;
+    border: none;
 }
 
 
 .fa-chevron-down{
-    padding-left: 90px;
+    padding-left: 160px;
 }
 
-.lista-scomparsa li{
+.lista-scomparsa li>h5{
+    font-size: 0.7rem;
+}
+
+
+.lista-scomparsa li>a{
     display: none;
 }
 footer{
