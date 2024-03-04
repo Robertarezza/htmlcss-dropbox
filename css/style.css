@@ -199,10 +199,7 @@ hr{
     position: fixed;
     z-index: 999;
     background-color: white;
-    /* debug */
-    /* background-color: brown; */
-    /* height: 50px; */
-
+    
 }
 
 .logo{
@@ -279,22 +276,9 @@ hr{
 .trova-piano-business{
     margin-top: 100px;
     line-height: 50px;
-    /* debug */
-    /* background-color: lightslategrey;
-    height: 100px; */
 
 }
 
-/* #opzione-1[type="radio"]{
-   appearance:none;
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    padding: 3px;
-    border: 2px solid rgb(187, 187, 187);
-    background-color: rgb(255, 255, 255);
-    border-radius: 50%;
-} */
 
 #opzione-1[type="radio"]{
     appearance: none;
