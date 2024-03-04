@@ -25,13 +25,17 @@ a{
 }
 
 button:hover{
-    background-color: #0650d0;
-    
+    background-color: #2974f6;
     cursor: pointer;
 }
 
+.but-partner:hover{
+    background-color: whitesmoke;
+}
 
-
+.bottone-prova-gratuita:hover{
+    background-color: whitesmoke;
+}
 /* liste */
 ul{
     list-style: none;
